@@ -1,0 +1,46 @@
+body{
+    background:url('imgs/Indice-de-massa-corporal-IMC-1536x922.jpeg.jpg');
+
+    
+ }
+
+ h1{
+     text-align: center;
+     color:black;
+ }
+
+ .boxed-title{
+     background-color: White;
+     color: black;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     max-width: 60%;
+     margin: 0 auto;
+ }
+ .item{
+     color:Blue;
+     font-size:24px;
+     text-align:center;
+     margin: 120px;
+ }
+ input[type="text"]{
+     font-size:24px;
+ }
+ .custon_button{
+     text-align:center;
+     margin:50px;
+     font-size:24px;
+     
+ }
+ .result{
+     text-align:center;
+     margin:20px;
+     font-size: 24px;
+ }
+ label{
+     margin-right: 50px;
+     line-height:120px;
+
+ }

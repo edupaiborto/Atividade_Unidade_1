@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <noscript>Javascript desativado no navegador!</noscript>
+    <h1 class="boxed-title"><b>Indice de Massa Corpórea - IMC</b></h1>
+    <br/>
+    <br/>
+    <div class="item">
+        <form id="imc-form">
+            <label for="altura"><b>Altura:
+                <input type = "text" name="altura" id = "altura" value="">
+            </b>
+             </label>
+             <label for="peso"><b>Peso:
+                <input type="text" name="peso" id="peso" value="">
+             </b></label>
+        </form>
+        <div class="custon_button">
+            <button id="calcular">Calcular</button>
+        </div> 
+        <div class="imc">
+            <label for="result"><b>IMC:
+                <input type="text" id="result" disabled>
+            </b>
+            </label>
+            <br/>
+            <label for="classification"><b>Classificação:
+                <input type="text" id="classification" disabled>
+            </b></label>
+        </div>
+    </div>
+</body>
+</html>
